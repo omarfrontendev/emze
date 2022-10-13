@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emze/static/css/main.7cb23b3e.css",
+    "main.js": "/emze/static/js/main.ad45f51c.js",
+    "index.html": "/emze/index.html",
+    "main.7cb23b3e.css.map": "/emze/static/css/main.7cb23b3e.css.map",
+    "main.ad45f51c.js.map": "/emze/static/js/main.ad45f51c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cb23b3e.css",
+    "static/js/main.ad45f51c.js"
+  ]
+}
