@@ -1,12 +1,12 @@
 import React from 'react'
-import { EarningSection, HeroSection } from '../../components'
+import { HeroSection } from '../../components'
 
 const BecomeHostPage = () => {
   return (
     <>
       <HeroSection />
       <div className="container">
-        <EarningSection />
+        {/* <EarningSection /> */}
       </div>
     </>
   )
