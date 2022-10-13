@@ -1,0 +1,91 @@
+.login__form__container {
+  text-align: center;
+  width: 700px;
+  background-color: var(--color__white);
+  padding: 40px 40px 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 1px 14px rgb(0 0 0 / 7%);
+  margin-left: auto;
+  margin-right: auto;
+
+  h3 {
+    font-size: 42px;
+    font-weight: var(--ft__W__Bold);
+    color: var(--color__orange);
+    margin-bottom: 10px;
+  }
+  >p {
+    font-size: var(--ft__14px);
+    font-weight: var(--ft__W__Medium);
+    color: gray;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeded;
+  }
+  .continue__with {
+    h4 {
+      font-size: 26px;
+      font-weight: var(--ft__W__SemiBold);
+    }
+    .button__sign__with {
+      padding: 10px 24px;
+      column-gap: 20px;
+      background-color: #DD4B39;
+      color: var(--color__white);
+      font-size: var(--ft__18);
+      border-radius: 4px;
+    }
+  }
+  .or {
+    font-size: 40px;
+    // font-weight: var(--ft);
+    margin: 40px auto;
+  }
+  .login__form {
+    width: 100%;
+    row-gap: 10px;
+
+    .forget__passowrd {
+      font-size: 12px;
+      color: #555555;
+      font-weight: var(--ft__W__Medium);
+    }
+
+    .login__btn {
+      color: var(--color__orange);
+      padding: 10px;
+      border: 2px solid;
+      font-size: 20px;
+      font-weight: var(--ft__W__SemiBold);
+      margin-top: 30px;
+      border-radius: 50px;
+      transition: .3s ease-in-out;
+      &:hover {
+        background-color: var(--color__orange);
+        color: var(--color__white);
+      }
+      &:disabled {
+        pointer-events: none;
+        color: #555555;
+        opacity: .5;
+      }
+    }
+  }
+  .switch__btn {
+    font-size: var(--ft__14px);
+    font-weight: var(--ft__W__Medium);
+    color: var(--color__header__bg);
+    margin-top: 40px;
+
+    a {
+      color: var(--color__orange);
+      margin-left: 5px;
+      font-weight: var(--ft__W__SemiBold);
+      &:hover {
+        color: var(--color__orange);
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.single__place__card {
+
+  .like__btn {
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    font-size: 20px;
+    color: var(--color__white);
+    transition: .3s ease-in-out;
+
+    &.liked {
+      color: var(--color__orange);
+      transform: scale(1.1);
+    }
+  }
+
+  .location__details {
+    .left__data {
+      h4 {
+        color: #222222;
+        font-weight: var(--ft__W__SemiBold);
+        font-size: var(--ft__18);
+        margin-bottom: 10px;
+      }
+      .days__booking {
+        color: #717171;
+        font-size: var(--ft__14px);
+        margin-bottom: 4px;
+      }
+      .location__price {
+        color: var(--color__orange);
+        font-size: var(--ft__14px);
+        font-weight: var(--ft__W__SemiBold);
+      }
+    }
+    .rigth__data {
+      &>span {
+        column-gap: 4px;
+        font-size: var(--ft__14px);
+        font-weight: var(--ft__W__SemiBold);
+        padding-bottom: 6px;
+        &>span {
+          position: relative;
+          
+          &::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--color__orange);
+          }
+        }
+        .star__icon {
+          color: var(--color__orange);
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: 2px solid var(--color__orange);
+    font-size: 16px;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--color__white);
+    color: var(--color__orange);
+  }
+  a:hover {
+    background-color: var(--color__orange);
+    color: var(--color__white);
+  }
+}

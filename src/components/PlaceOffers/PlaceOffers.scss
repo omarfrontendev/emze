@@ -1,0 +1,24 @@
+.place__section__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: var(--ft__W__SemiBold);
+}
+.single__offer {
+  column-gap: 10px;
+  padding: 10px 0;
+  font-size: var(--ft__18);
+  font-weight: var(--ft__W__Medium);
+  color: var(--color__header__bg);
+
+  &:hover {
+    .offer__icon {
+      color: var(--color__orange);
+    }
+  }
+  .offer__icon {
+    transition: .3s linear;
+    font-size: 20px;
+  }
+
+}

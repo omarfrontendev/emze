@@ -1,0 +1,26 @@
+.user__dropdown {
+  top: 50px;
+  right: 0;
+  background-color: var(--color__white);
+  // padding: 10px 0;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+  z-index: 1000000;
+  // border: 2px solid var(--color__orange);  
+  // row-gap: 16px;
+  border: 1px solid #e6e5e5;
+
+  a {
+    display: block;
+    padding: 20px;
+    transition: .3s ease-in-out;
+    &:hover {
+      background-color: #e6e5e5;
+      color: #000;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid #e6e5e5;
+    }
+  }
+}

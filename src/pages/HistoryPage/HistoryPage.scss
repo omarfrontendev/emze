@@ -1,0 +1,15 @@
+.history__title {
+  font-size: 32px;
+  font-weight: var(--ft__W__SemiBold);
+  margin-bottom: 20px;
+  color: var(--color__orange);
+}
+.history__content {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 36px;
+  .images__container {
+    .image__card {
+      height: 400px;
+    }
+  }
+}

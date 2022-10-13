@@ -1,0 +1,23 @@
+.categories__bar {
+  padding: 20px;
+  column-gap: 40px;
+
+  .category__btn {
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: var(--ft__W__SemiBold);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 1px -18px var(--color__orange);
+    color: var(--color__orange);
+    border: 2px solid var(--color__orange);
+    width: 150px;
+    height: 40px;
+    box-sizing: content-box;
+
+    &.active {
+      box-shadow: inset 0px 0px 1px 30px var(--color__orange);
+      color: var(--color__white);
+      border: 2px solid var(--color__orange);
+    }
+  }
+}
